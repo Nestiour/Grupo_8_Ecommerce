@@ -28,3 +28,8 @@ Ofrecemos un sitio web versatil y sencillo que permita una mayor velocidad de re
 ---MirianBaigorria: Me gusta programar y los perros.
 
 ---Savino Nestor: Cuento con conocimientos en lenguajes de programacion java y mayormente python, manejo de html y css, frameworks django y react.
+
+
+---------------------------------------
+link trello: https://trello.com/b/zzHrDUJv/grupo8restaurant
+---------------------------------------
