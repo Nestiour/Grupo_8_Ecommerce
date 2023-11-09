@@ -1,4 +1,8 @@
 
 Reporte de Proyecto
-retro
+Hacer mas:
+Empezar a hacer:
+Hacer menos:
+Hacer igual:
+
 
