@@ -10,7 +10,7 @@ Hacer mas:
 Empezar a hacer:
 ----------------
   * Priorizacion de posibles tareas atrazadas.
-  * Todos los miembros del grupo se preocupen por todas las tareas.
+  * Todos los miembros del grupo deben mostrar preocupacion por todas las tareas.
 
 Hacer menos:
 ------------
