@@ -1,0 +1,33 @@
+<%- include('partials/head') %>
+<body>
+    <%- include('partials/header') %>
+    <%- include('partials/nav') %>
+    <link href="css/login.css" rel='stylesheet'>
+    <div class="Formulario">
+        <div style="text-align: center;">
+            <img src="images/logo-restaurante.png" alt="logo" width="200px" height="200px">
+        </div>
+        <h1>Inicio de Sesion</h1>
+        <form method="post">
+          <div class="User">
+              <input type="email" placeholder="Correo Electronico" required>
+          </div>
+          <br>
+        <div class="password">
+          <input type="password" placeholder="Contraseña" required>
+          <div>
+            <input type="checkbox">
+            <label>Recordarme</label>
+          </div>
+        </div>
+        <input type="submit" value="Iniciar Sesion">
+        <div>
+            <a href="/register" class="nav-button">Registrarse</a>
+                <!--<input type="button" value="Registrarse">-->
+            </a>
+        </div>
+        </form>
+    </div>
+    <%- include('partials/footer') %>
+</body>
+</html>

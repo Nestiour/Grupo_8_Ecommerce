@@ -1,0 +1,64 @@
+<%- include('partials/head') %>
+<body>
+    <%- include('partials/header') %>
+    <%- include('partials/nav') %>
+    <div class="cart-container">
+        <div class="cart-details">
+            <h2>Información de Pago</h2>
+            <p>Nombre: Usuario Ejemplo</p>
+            <p>Tarjeta: **** **** **** 1234</p>
+            <button class="change-info-btn">Cambiar</button>
+        </div>
+    
+        <div class="cart-details">
+            <h2>Información de Localización</h2>
+            <p>Dirección: Calle Ejemplo, Ciudad</p>
+            <p>Código Postal: 12345</p>
+            <button class="change-info-btn">Cambiar</button>
+        </div>
+    
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="images/fugaza.jpeg" alt="Platillo 1">
+                <div class="item-details">
+                    <h3>Nombre del Platillo 1</h3>
+                    <p>Precio: $10.00</p>
+                    <button class="cancel-btn">Cancelar</button>
+                </div>
+            </div>
+    
+            <div class="cart-item">
+                <img src="images/fanta" alt="Platillo 2">
+                <div class="item-details">
+                    <h3>Nombre del Platillo 2</h3>
+                    <p>Precio: $15.00</p>
+                    <button class="cancel-btn">Cancelar</button>
+                </div>
+            </div>
+    
+            <div class="cart-item">
+                <img src="images/lomito.jpeg" alt="Platillo 3">
+                <div class="item-details">
+                    <h3>Nombre del Platillo 3</h3>
+                    <p>Precio: $8.00</p>
+                    <button class="cancel-btn">Cancelar</button>
+                </div>
+            </div>
+    
+            <div class="cart-item">
+                <img src="papas-chedar.jpg" alt="Platillo 4">
+                <div class="item-details">
+                    <h3>Nombre del Platillo 4</h3>
+                    <p>Precio: $12.00</p>
+                    <button class="cancel-btn">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="total-price">
+            <p>Total: $45.00</p>
+        </div>
+    </div>
+    <%- include('partials/footer') %>
+</body>
+</html>
