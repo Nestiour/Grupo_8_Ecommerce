@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f37532;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  .Formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 4px black;
+  }
+
+  .Formulario h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+  }
+  .Formulario form {
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  form .User{
+    position: relative;
+    margin: 10px 0;
+  }
+  form .password {
+    position: relative;
+    margin: 10px 0;
+  }
+  input[type="submit"] {
+    width: 105%;
+    height: 35px;
+    background: #cf1616;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    border-color: #cf1616;
+  }
+  input[type="email"] {
+    background: white;
+    border-radius: 15px;
+    height: 30px;
+    border-color: #cf1616;
+  }
+  input[type="password"] {
+    background: white;
+    border-radius: 15px;
+    height: 30px;
+    border-color: #cf1616;
+  }
+  input[type="button"] {
+    width: 105%;
+    margin: 5px 0;
+    height: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    border-color: yellow;
+    background: white;
+  }
+  input[type="checkbox"] {
+    margin: 10px 0;
+    margin-bottom: 30px;
+  }
