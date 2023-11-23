@@ -13,6 +13,9 @@ const mainControllers = {
     },
     ProductDetails: (req, res) => {
         res.render('productDetails')
+    },
+    Add: (req, res) => {
+        res.render('crearProducto')
     }
 }
 
