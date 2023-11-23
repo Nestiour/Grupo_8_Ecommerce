@@ -13,6 +13,12 @@ const mainControllers = {
     },
     ProductDetails: (req, res) => {
         res.render('productDetails')
+    },
+    Add: (req, res) => {
+        res.render('crearProducto')
+    },
+    Edit: (req, res) => {
+        res.render('editarProducto')
     }
 }
 

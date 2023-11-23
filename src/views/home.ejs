@@ -1,7 +1,18 @@
+
 <%- include('partials/head') %>
+<link href="css/home.css" rel='stylesheet'>
 <body>
     <%- include('partials/header') %>
     <%- include('partials/nav') %>
+    
+    <div>
+      <a href="/crearProducto" class="nav-button">
+          <input type="button" value="Agregar al Menu">
+      </a>
+      <a href="/editarProducto" class="nav-button">
+        <input type="button" value="Editar Menu">
+     </a>
+  </div>
     <main>
         <section class="Pizzas">
           <h4 class="titulo-pizza">Pizzas</h4>

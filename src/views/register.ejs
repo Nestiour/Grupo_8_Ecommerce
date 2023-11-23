@@ -1,11 +1,11 @@
 <%- include('partials/head') %>
 <body>
-    <%- include('partials/header') %>
-    <%- include('partials/nav') %>
+  <%- include('partials/header') %>
+  <main>
     <div class="registro-box">
         <link href="css/register.css" rel='stylesheet'>
-        <img class="logo" src="images/logo-restaurante.png" alt="Logo de MichiFood">
-    <form>
+        <img class="logo-cp" src="images/logo-restaurante.png" alt="Logo de MichiFood">
+      <form>
         <h2> Registro </h2>
         <input type="text" placeholder="Nombre">
         <input type="text" placeholder="Apellido">
@@ -13,8 +13,11 @@
         <input type="text" placeholder="Contraseña">
         <input type="text" placeholder="Confirmar Contraseña">
         <input type="submit" class="btn" value="Enviar">
-    </form>
+      </form>
     </div>
-    <%- include('partials/footer') %>
+
+  </main>
+   
+      <%- include('partials/footer') %>
 </body>
 </html>

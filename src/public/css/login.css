@@ -1,70 +1,186 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: #f37532;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  }
-  .Formulario {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 250px;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 0 15px 4px black;
-  }
+.logo {
+    
+  width: 30%;
+  height: 70%;
+}
+.carrito {
 
-  .Formulario h1 {
-    text-align: center;
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid silver;
-  }
-  .Formulario form {
-    padding: 0 40px;
-    box-sizing: border-box;
-  }
-  form .User{
-    position: relative;
-    margin: 10px 0;
-  }
-  form .password {
-    position: relative;
-    margin: 10px 0;
-  }
-  input[type="submit"] {
-    width: 105%;
-    height: 35px;
-    background: #cf1616;
-    border-radius: 15px;
-    color: black;
-    cursor: pointer;
-    outline: none;
-    border-color: #cf1616;
-  }
-  input[type="email"] {
-    background: white;
-    border-radius: 15px;
-    height: 30px;
-    border-color: #cf1616;
-  }
-  input[type="password"] {
-    background: white;
-    border-radius: 15px;
-    height: 30px;
-    border-color: #cf1616;
-  }
-  input[type="button"] {
-    width: 105%;
-    margin: 5px 0;
-    height: 35px;
-    border-radius: 15px;
-    cursor: pointer;
-    margin-bottom: 25px;
-    border-color: yellow;
-    background: white;
-  }
+  width: 10%;
+  height: 5%;
+  color: #F3D300;
+  
+}
+.fa-light{
+  
+font-size: 200%;
+}
+
+.sup {
+  display: flex;
+  flex-direction: row;
+  background-color: #F37532;
+ text-align: center;
+align-items: center;}
+
+header {
+ 
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+.michiynav {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-cuenta {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: row;
+  color: #F3D300;
+  padding: 0.7%;
+ 
+}
+.buscador {
+  display: none;
+  align-items: center;
+  justify-content: flex-start;
+}
+.search-bar {
+  width: 30%;
+
+}
+
+.input{
+  width: 190%;
+border: solid  white;
+padding: 1%;
+margin-left: 5%;
+
+background-color: #FFFFFF;
+font-size: 150%;
+
+
+}
+main {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.Formulario {
+  position: relative;
+
+  width: 350px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 4px black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;    
+}
+
+.Formulario h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+}
+.Formulario form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+form .User{
+  position: relative;
+  margin-bottom: 10px ;
+}
+form .password {
+  position: relative;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  border-radius: 25px;
+  border: 4px solid #f37532;
+  background: #f37532;
+  margin-bottom: 17px;
+  outline: none;
+  font-size:18px;
+}
+input[type="submit"]:hover {
+  background-color: #cf1616;
+  border: 2px solid #cf1616;
+
+}
+input[type="email"] {
+  width: 100%;
+  height: 40px;
+  border-radius: 25px;
+  border: 4px solid #cf1616;
+  background: white;
+  margin-bottom: 17px;
+  outline: none;
+  font-size:18px;
+}
+input[type="password"] {
+  width: 100%;
+  height: 40px;
+  border-radius: 25px;
+  border: 4px solid #cf1616;
+  background: white;
+  margin-bottom: 17px;
+  outline: none;
+  font-size:18px;
+}
+input[type="button"] {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: 4px solid #f37532;
+  background:#f37532 ;
+  margin-bottom: 15px;
+  outline: none;
+  font-size:18px;
+}
+input[type="button"]:hover {
+  background-color: #cf1616;
+  border: 2px solid #cf1616;
+}
+
   input[type="checkbox"] {
     margin: 10px 0;
     margin-bottom: 30px;
-  }
+}
+
+footer {
+   
+  margin: 0% auto;
+  background-color: #F3D300;
+  width: 100%;
+}
+.tre {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.fa-credit-card,.fa-gift{
+color: red;
+text-align: center;
+font-size: 1.5em;
+margin-bottom: 10px;
+margin-top: 30px;
+
+}
+.ultima-linea{
+  display: flex;
+  justify-content: center;
+  
+
+}
