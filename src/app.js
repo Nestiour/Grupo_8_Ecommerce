@@ -12,5 +12,5 @@ app.use('/', mainRoutes)
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`servidor iniciado en https://localhost:${PORT}`)
+    console.log(`servidor iniciado en http://localhost:${PORT}`)
 })
