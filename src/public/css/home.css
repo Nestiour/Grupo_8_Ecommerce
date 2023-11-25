@@ -207,6 +207,15 @@ body {
 .price, .description{
     font-size: 100%;
 }
+article {
+    display: box;
+    margin: 3%;  
+}
+a {
+    color: black;
+    text-decoration: none; /* Esto elimina el subrayado predeterminado de los enlaces, puedes ajustarlo según tus preferencias */
+  }
+  
 
 footer {
     margin: 0% auto;
