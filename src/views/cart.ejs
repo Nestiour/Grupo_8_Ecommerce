@@ -1,66 +1,78 @@
-     
-<%- include('partials/head') %>
+ <%- include('partials/head') %>
 <link href="css/home.css" rel='stylesheet'>
 <body>
     <%- include('partials/header') %>
     <%- include('partials/nav') %>
-    <div class="cart-container">
-        <div class="cart-details">
-            <h2>Información de Pago</h2>
-            <p>Nombre: Usuario Ejemplo</p>
-            <p>Tarjeta: **** **** **** 1234</p>
-            <button class="change-info-btn">Cambiar</button>
-        </div>
     
-        <div class="cart-details">
-            <h2>Información de Localización</h2>
-            <p>Dirección: Calle Ejemplo, Ciudad</p>
-            <p>Código Postal: 12345</p>
-            <button class="change-info-btn">Cambiar</button>
-        </div>
-    
-        <div class="cart-items">
-            <div class="cart-item">
-                <img src="images/fugaza.jpeg" alt="Platillo 1">
-                <div class="item-details">
-                    <h3>Nombre del Platillo 1</h3>
-                    <p>Precio: $10.00</p>
-                    <button class="cancel-btn">Cancelar</button>
-                </div>
+    <div>
+      <a href="/crearProducto" class="nav-button">
+          <input type="button" value="Agregar al Menu">
+      </a>
+      <a href="/editarProducto" class="nav-button">
+        <input type="button" value="Editar Menu">
+     </a>
+  </div>
+    <link href="css/cart.css" rel='stylesheet'>
+    <section class="main-section">
+        <div class="cart-payment">
+            <div class="cart-details">
+                <h2>Información de Pago</h2>
+                <p>Nombre: Jesus </p>
+                <p>Tarjeta: **** **** **** 1234</p>
+                <button class="change-info-btn">Cambiar</button>
             </div>
-    
-            <div class="cart-item">
-                <img src="images/fanta" alt="Platillo 2">
-                <div class="item-details">
-                    <h3>Nombre del Platillo 2</h3>
-                    <p>Precio: $15.00</p>
-                    <button class="cancel-btn">Cancelar</button>
-                </div>
-            </div>
-    
-            <div class="cart-item">
-                <img src="images/lomito.jpeg" alt="Platillo 3">
-                <div class="item-details">
-                    <h3>Nombre del Platillo 3</h3>
-                    <p>Precio: $8.00</p>
-                    <button class="cancel-btn">Cancelar</button>
-                </div>
-            </div>
-    
-            <div class="cart-item">
-                <img src="papas-chedar.jpg" alt="Platillo 4">
-                <div class="item-details">
-                    <h3>Nombre del Platillo 4</h3>
-                    <p>Precio: $12.00</p>
-                    <button class="cancel-btn">Cancelar</button>
-                </div>
+        
+            <div class="cart-details">
+                <h2>Información de Localización</h2>
+                <p>Dirección: Calle Ejemplo, Ciudad</p>
+                <p>Código Postal: 12345</p>
+                <button class="change-info-btn">Cambiar</button>
             </div>
         </div>
-    
-        <div class="total-price">
-            <p>Total: $45.00</p>
+        <div class="cart-menu">
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="images/tostado.jpg" alt="Platillo 1">
+                    <div class="item-details">
+                        <h3>Tostados de Jamon y Queso con Verduras</h3>
+                        <p>Precio: $10.00</p>
+                        <button class="cancel-btn">Cancelar</button>
+                    </div>
+                </div>
+        
+                <div class="cart-item">
+                    <img src="images/sprite.jpg" alt="Platillo 2">
+                    <div class="item-details">
+                        <h3>Sprite 1,25ml</h3>
+                        <p>Precio: $15.00</p>
+                        <button class="cancel-btn">Cancelar</button>
+                    </div>
+                </div>
+        
+                <div class="cart-item">
+                    <img src="images/lomito.jpeg" alt="Platillo 3">
+                    <div class="item-details">
+                        <h3>Supremo Lomito</h3>
+                        <p>Precio: $20.00</p>
+                        <button class="cancel-btn">Cancelar</button>
+                    </div>
+                </div>
+        
+                <div class="cart-item">
+                    <img src="images/papas-chedar.jpg" alt="Platillo 4">
+                    <div class="item-details">
+                        <h3>Porcion de Papas Fritas</h3>
+                        <p>Precio: $12.00</p>
+                        <button class="cancel-btn">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="total-price">
+                <p>Total: $45.00</p>
+            </div>
         </div>
-    </div>
-    <%- include('partials/footer') %>
+    </section>
 </body>
+<%- include('partials/footer') %>
 </html>
