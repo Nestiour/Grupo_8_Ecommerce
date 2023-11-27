@@ -1,5 +1,4 @@
-
-Reporte de Proyecto sprint 3
+Reporte de Proyecto Sprint 3
 -------------------
 Hacer mas: 
 ----------
@@ -46,3 +45,4 @@ Hacer igual:
 * Reuniones productivas.
 * Mantener actitud positiva
 * Mantener compañerismo.
+* Aumento progresivo del ritmo de trabajo.
