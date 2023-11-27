@@ -16,16 +16,33 @@ Empezar a hacer:
 Hacer menos:
 ------------
  * Procrastinar
- * aislarse mientras realizamos nuestras tareas.
+ * Aislarse mientras realizamos nuestras tareas.
    
 Hacer igual:
 ------------
 * Reuniones productivas.
 * Mantener actitud positiva
 * Mantener compañerismo
+
+Reporte de Proyecto: Sprint 4
+----------------------------
+Hacer mas: 
+----------
+* Agilizacion de codigo.
+* Experimentar mas seguido con las herramientas de programacion.
+
+Empezar a hacer:
 ----------------
-Reporte de Proyecto sprint 4
-  
+* Revision de tareas lo mas pronto posible al comienzo del proximo sprint.
+* Avisar con anticipacion en caso de no poder completar alguna o algunas tareas asignadas a tiempo.
+* En caso de complicaciones o agenda apretada, advertir al grupo con tiempo.
 
-
-
+Hacer menos:
+------------
+* Procrastinar.
+   
+Hacer igual:
+------------
+* Reuniones productivas.
+* Mantener actitud positiva
+* Mantener compañerismo.
