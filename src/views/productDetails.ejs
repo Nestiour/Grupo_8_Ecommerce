@@ -16,6 +16,14 @@
         <br>
         <br> 
     </div>
+    <div>
+        <form action="/home/<%= controller.id %>?_method=DELETE" method="POST" style="display: inline-flex">
+            <button type="submit" class="action-button delete">ELIMINAR</button>
+        </form>
+        <a href="/editarProducto" class="nav-button">
+          <input type="button" value="Editar">
+       </a>
+    </div>
     <%- include('partials/footer') %>
 </body>
 </html>
