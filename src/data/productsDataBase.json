@@ -90,5 +90,13 @@
     "price": 1500,
     "category": "Bebidas",
     "description": "..."
+  },
+  {
+    "id": 14,
+    "name": "arroz",
+    "price": "2321",
+    "category": "arroces",
+    "description": "no sirve de nada esto",
+    "image": "d1c9d418e951f0bf82c936d9e7d3f8db"
   }
 ]

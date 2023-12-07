@@ -20,7 +20,7 @@ const mainControllers = {
         res.render('productDetails')
     },
     Add: (req, res) => {
-        res.render('crearProducto')
+        res.render('crearProducto', { product: {} }); // Puedes pasar un objeto vacío si aún no tienes datos del producto
     },
     Edit: (req, res) => {
         res.render('editarProducto')
@@ -74,6 +74,26 @@ const mainControllers = {
         res.redirect('/');
     },
 
+    update: (req, res) => {
+		
+		const idProd = req.params.id;
+		const {name, price,descount,category,description}=req.body;
+		const indexProducto=products.findIndex(producto => producto.id == idProd);
+		if(indexProducto!==-1){
+			products[indexProducto].name=name;
+			products[indexProducto].price=price;
+			products[indexProducto].descount=descount;
+			products[indexProducto].category=category;
+			products[indexProducto].description=description;
+			fs.writeFileSync(productsFilePath, JSON.stringify(products));
+			console.log('producto editado');
+			res.redirect('/');
+		}else{
+			console.log('Producto no encontrado');
+			res.send('Producto no encontrado');
+		}
+	},
+    
     DeleteProduct: (req, res) => {
         const productId = parseInt(req.params.id);
 

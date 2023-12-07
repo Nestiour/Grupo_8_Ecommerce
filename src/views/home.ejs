@@ -1,21 +1,35 @@
 
 <%- include('partials/head') %>
 <link href="css/home.css" rel='stylesheet'>
+
 <body>
     <%- include('partials/header') %>
     <%- include('partials/nav') %>
     <main>
       <div>
         <a href="/crearProducto" class="nav-button">
-            <button>Agregar Producto</button>
+            <input type="button" value="Agregar al Menu">
         </a>
+        <a href="/editarProducto" class="nav-button">
+          <input type="button" value="Editar Menu">
+       </a>
     </div>
       <% products.forEach(product => { %>
         <div>
-            <h3><%= product.name %></h3>
-            <p><%= product.price %></p>
+          <article class="p">
+            <% if (product.image) { %>
+              <img src="/src/public/images/products/<%= product.image %>" alt="<%= product.name %>">
+          <% } else { %>
+              <p>No hay imagen disponible</p>
+          <% } %>
+            <div class="main-articulo">
+              <h4 class="description"><%= product.name %></h4>
+              <p class="price">$<%= product.price %></p>
+           </div>
+          </article>
             <!-- Agrega más detalles del producto según sea necesario -->
             <a href="/eliminarProducto/<%= product.id %>">Eliminar</a>
+            <a href="/editarProducto/<%= product.id %>">Editar</a>
         </div>
     <% }); %>
     </main>

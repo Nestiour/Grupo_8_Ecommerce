@@ -3,20 +3,26 @@
 <body>
     <%- include('partials/header') %> 
     <main>
-        <div class="registro-box">
-            
-            <img class="logo-cp" src="images/logo-restaurante.png" alt="Logo de MichiFood">
-            <form>
-             <h2>Agregar</h2>
-                <input type="text" placeholder="Nombre del Producto">
-                <input type="text" placeholder="Descripcion">
-                <input type="file" accept=".jpg, .png, .jpeg" name="avatar" placeholder="Imagen">
-                <input type="text" placeholder="Categoria">
-                <input type="text" placeholder="Color">
-                <input type="text" placeholder="Precio">
-                <input type="submit" class="btn" value="Crear">
-            </form>
-        </div>
+        <h2>Agregar Nuevo Producto</h2>
+
+        <form action="/crearProducto" method="post" enctype="multipart/form-data">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="price">Precio:</label>
+            <input type="number" id="price" name="price" required>
+
+            <label for="category">Categoría:</label>
+            <input type="text" id="category" name="category" required>
+
+            <label for="description">Descripción:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="image">Imagen:</label>
+            <input type="file" id="image" name="imagen" accept="image/*">
+
+            <button type="submit">Agregar Producto</button>
+        </form>
     </main>
     <%- include('partials/footer') %> 
 </body>

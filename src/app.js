@@ -2,7 +2,12 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const mainRoutes = require('./routes/main');
+const createError = require('http-errors');
+const cookieParser = require('cookie-parser');
+const methodOverride =  require('method-override'); // Pasar poder usar los métodos PUT y DELETE
+const logger = require('morgan');
 
+app.use('/src/public/images/products', express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.set('view engine', 'ejs')

@@ -4,9 +4,12 @@ const mainController = require('../controllers/mainControllers');
 const multer = require('multer');
 const upload = multer({ dest: '../public/images' }); // Configura la carpeta de destino para subir archivos
 
+router.get('/crearProducto/', mainController.Add);
 router.post('/crearProducto', upload.single('imagen'), mainController.CreateProduct);
+
 router.get('/editarProducto/:id', mainController.EditProductPage);
-router.post('/editarProducto/:id', upload.single('imagen'), mainController.EditProduct);
+router.put('/:id', upload.single('imagen'), mainController.Update);
+
 router.get('/eliminarProducto/:id', mainController.DeleteProduct);
 
 //espacio//
