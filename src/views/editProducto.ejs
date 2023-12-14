@@ -1,0 +1,33 @@
+<%- include('partials/head') %>
+<link href="css/editarProducto.css" rel='stylesheet'>
+<body>
+    <%- include('partials/header') %> 
+    <main>
+      <h2>Editar Producto</h2>
+
+      <form action="/products/<%= product.id %>" method="post">
+        <label for="id">ID:</label>
+        <input type="text" name="id" value="<%= product.id %>" readonly>
+      
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" value="<%= product.name %>" required>
+      
+        <label for="price">Precio:</label>
+        <input type="number" name="price" value="<%= product.price %>" step="0.01" required>
+      
+        <label for="category">Categoría:</label>
+        <input type="text" name="category" value="<%= product.category %>" required>
+      
+        <label for="description">Descripción:</label>
+        <textarea name="description" rows="4" required><%= product.description %></textarea>
+      
+        <label for="image">Imagen:</label>
+        <input type="file" name="image" accept="image/*" required>
+      
+        <button type="submit">Guardar Cambios</button>
+      </form>
+      
+    </main>
+    <%- include('partials/footer') %>
+</body>
+</html>

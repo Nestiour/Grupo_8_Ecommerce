@@ -1,0 +1,27 @@
+<%- include('partials/head') %>
+<body>
+    <%- include('partials/header') %>
+    <%- include('partials/nav') %>
+    <link href="/css/productdetails.css" rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <h1>Detalles del Producto</h1>
+
+<div class="product">
+  <h3><%= product.name %></h3>
+  <p>Precio: <%= toThousand(product.price) %></p>
+  <p>Categoría: <%= product.category %></p>
+  <p>Descripción: <%= product.description %></p>
+  <p>Imagen: <%= product.image %></p>
+
+  <a href="/products/edit/<%= product.id %>" class="btn">Editar Producto</a>
+
+  <form action="/products/<%= product.id %>" method="post" style="display:inline;">
+    <input type="hidden" name="_method" value="DELETE">
+    <button type="submit" class="btn">Eliminar Producto</button>
+  </form>
+</div>
+
+    <%- include('partials/footer') %>
+</body>
+</html>

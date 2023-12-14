@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Margarita",
+    "price": 2000,
+    "category": "Pizzas",
+    "description": "...",
+    "image": "src/public/images/margarita.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Fugazzeta",
+    "price": 2000,
+    "category": "Pizzas",
+    "description": "..."
+  },
+  {
+    "id": 4,
+    "name": "Aros de Cebolla",
+    "price": 500,
+    "category": "Piqueos",
+    "description": "..."
+  },
+  {
+    "id": 5,
+    "name": "Bastones de Muzzarela",
+    "price": 500,
+    "category": "Piqueos",
+    "description": "..."
+  },
+  {
+    "id": 6,
+    "name": "Papas con Cheddar",
+    "price": 500,
+    "category": "Piqueos",
+    "description": "..."
+  },
+  {
+    "id": 7,
+    "name": "Lomito",
+    "price": 3000,
+    "category": "Sandwiches",
+    "description": "..."
+  },
+  {
+    "id": 8,
+    "name": "Milanesa",
+    "price": 3000,
+    "category": "Sandwiches",
+    "description": "..."
+  },
+  {
+    "id": 9,
+    "name": "Tostado",
+    "price": 2000,
+    "category": "Sandwiches",
+    "description": "..."
+  },
+  {
+    "id": 10,
+    "name": "Comun",
+    "price": 2500,
+    "category": "Hamburguesas",
+    "description": "..."
+  },
+  {
+    "id": 11,
+    "name": "Doble",
+    "price": 3000,
+    "category": "Hamburguesas",
+    "description": "..."
+  },
+  {
+    "id": 12,
+    "name": "Especial",
+    "price": 3000,
+    "category": "Hamburguesas",
+    "description": "..."
+  },
+  {
+    "id": 13,
+    "name": "Coca-Cola",
+    "price": 1500,
+    "category": "Bebidas",
+    "description": "..."
+  },
+  {
+    "id": 15,
+    "name": "Sprite",
+    "price": 1500,
+    "category": "Bebidas",
+    "description": "..."
+  },
+  {
+    "id": 14,
+    "name": "arroz",
+    "price": "2321",
+    "category": "arroces",
+    "description": "no sirve de nada esto",
+    "image": "d1c9d418e951f0bf82c936d9e7d3f8db"
+  }
+]

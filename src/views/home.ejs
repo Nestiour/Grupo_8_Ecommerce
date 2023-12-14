@@ -1,212 +1,26 @@
 
 <%- include('partials/head') %>
 <link href="css/home.css" rel='stylesheet'>
+
 <body>
     <%- include('partials/header') %>
     <%- include('partials/nav') %>
-    
-    <div>
-      <a href="/crearProducto" class="nav-button">
-          <input type="button" value="Agregar al Menu">
-      </a>
-      <a href="/editarProducto" class="nav-button">
-        <input type="button" value="Editar Menu">
-     </a>
-  </div>
     <main>
-        <section class="Pizzas">
-          <h4 class="titulo-pizza">Pizzas</h4>
-          <div class="producto-pizza">
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/margarita.jpg" alt="margarita" class="margarita">
-              <div class="main-articulo">
-                <h4 class="description">Margarita</h4>
-                <p class="price">$2.000</p>
-             </div>
-             </a>
-            </article>
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/peperoni.jpg" alt="peperoni" class="peperoni">
-              <div class="main-articulo">
-                <h4 class="description">Peperoni</h4>
-               <p class="price">$2.000</p>
-              </div>
-              </a>
-            </article>
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/fugaza.jpeg" alt="fugaza" class="fugaza">
-              <div class="main-articulo">
-                <h4 class="description">Fugazzeta</h4>
-                <p class="price">$2.000</p>
-             </div>
-              </a>
-            </article>
-          </div>
-        </section>
-        <section class="Piqueos">
-          <h4 class="titulo-piqueos">Piqueos</h4>
-          <div class="producto-piqueos">
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/aros-cebolla.jpg" alt="aros" class="aros">
-              <div class="main-articulo">
-                <h4 class="description">Aros de cebolla</h4>
-                <p class="price">$2.000</p>
-             </div>
-             </a>
-            </article>
-            <article class="p">
-              <a href="/productDetails">
-               <img src="/images/baston-musa.webp" alt="baston" class="baston">
-               <div class="main-articulo">
-                <h4 class="description">Bastones de muzzarella</h4>
-                <p class="price">$2.000</p>
-               </div>
-              </a>
-            </article>
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/papas-chedar.jpg" alt="papas" class="papas">
-              <div class="main-articulo">
-                <h4 class="description">Papas con cheddar</h4>
-                <p class="price">$2.000</p>
-             </div>
-             </a>
-            </article>
-          </div>
-        </section>
-        <section class="Sanguches">
-          <h4 class="titulo-sanguches">Sanguches</h4>
-          <div class="producto-sanguches">
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/lomito.jpeg" alt="lomito" class="lomito">
-              <div class="main-articulo">
-                <h4 class="description">Lomito</h4>
-                <p class="price">$2.000</p>
-             </div>
-             </a>
-            </article>
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/milanesa.jpeg" alt="milanesa" class="milanesa">
-              <div class="main-articulo">
-                <h4 class="description">Milanesa</h4>
-               <p class="price">$2.000</p>
-              </div>
-              </a>
-            </article>
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/tostado.jpg" alt="tostado" class="tostado">
-              <div class="main-articulo">
-                <h4 class="description">Tostado</h4>
-                <p class="price">$2.000</p>
-             </div>
-              </a>
-            </article>
-          </div>
-        </section>
-        <section class="Hamburgesas">
-          <h4 class="titulo-hamburguesa">Hamburgesas</h4>
-          <div class="producto-hamburguesa">
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/hamburguesa comun.jpeg" alt="comun" class="comun">
-              <div class="main-articulo">
-                <h4 class="description">Común</h4>
-                <p class="price">$2.000</p>
-             </div>
-              </a>
-            </article>
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/hamburguesa-doble.png" alt="doble" class="doble">
-              <div class="main-articulo">
-                <h4 class="description">Doble</h4>
-               <p class="price">$2.000</p>
-              </div>
-              </a>
-            </article>
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/hamburguesa-especial.png" alt="especial" class="especial">
-              <div class="main-articulo">
-                <h4 class="description">Especial</h4>
-                <p class="price">$2.000</p>
-             </div>
-              </a>
-            </article>
-          </div>
-        </section>
-        <section class="Bebidas">
-          <h4 class="titulo-bebida">Bebidas</h4>
-          <div class="producto-bebida">
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/coca.webp" alt="coca" class="coca">
-              <div class="main-articulo">
-                <h4 class="description">Coca-cola</h4>
-                <p class="price">$2.000</p>
-             </div>
-              </a>
-            </article>
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/fanta.jpg" alt="fanta" class="fanta">
-              <div class="main-articulo">
-                <h4 class="description">Fanta</h4>
-               <p class="price">$2.000</p>
-              </div>
-              </a>
-            </article>
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/sprite.jpg" alt="sprite" class="sprite">
-              <div class="main-articulo">
-                <h4 class="description">Sprite</h4>
-                <p class="price">$2.000</p>
-             </div>
-              </a>
-            </article>
-          </div>
-        </section>
-        <section class="Ofertas">
-          <h4 class="titulo-ofertas">Ofertas</h4>
-          <div class="producto-ofertas">
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/margarita.jpg" alt="margarita" class="margarita">
-              <div class="main-articulo">
-                <h4 class="description">Margarita</h4>
-                <p class="price">$2.000</p>
-             </div>
-              </a>
-            </article>
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/peperoni.jpg" alt="peperoni" class="peperoni">
-              <div class="main-articulo">
-                <h4 class="description">Peperoni</h4>
-               <p class="price">$2.000</p>
-              </div>
-              </a>
-            </article>
-            <article class="p">
-              <a href="/productDetails">
-              <img src="/images/fugaza.jpeg" alt="fugaza" class="fugaza">
-              <div class="main-articulo">
-                <h4 class="description">Fugazzeta</h4>
-                <p class="price">$2.000</p>
-             </div>
-              </a>
-            </article>
-          </div>
-        </section>
-      </main>
+      <h1>Lista de Productos</h1>
+
+      <a href="/products/create" class="btn">Agregar Producto</a>
+      
+      <% products.forEach(product => { %>
+        <div class="product">
+          <h3><%= product.name %></h3>
+          <p>Precio: <%= toThousand(product.price) %></p>
+          <p>Descripción: <%= product.description %></p>
+          <p>Imagen: <%= product.image %></p>
+      
+          <a href="/products/detail/<%= product.id %>" class="btn">Ver Detalles</a>
+        </div>
+      <% }); %>
+    </main>
     <%- include('partials/footer') %>
 </body>
 </html>
