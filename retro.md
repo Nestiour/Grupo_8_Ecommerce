@@ -46,3 +46,28 @@ Hacer igual:
 * Mantener actitud positiva
 * Mantener compañerismo.
 * Aumento progresivo del ritmo de trabajo.
+
+  Reporte de Proyecto Sprint 5
+  ----------------------------
+Hacer mas: 
+----------
+* Agilizacion de codigo.
+* Explorar más a fondo css y multer
+* 
+Empezar a hacer:
+----------------
+* Revision de tareas lo mas pronto posible al comienzo del proximo sprint.
+* En caso de complicaciones o agenda apretada, advertir al grupo con tiempo.
+
+Hacer menos:
+------------
+* Procrastinar.
+   
+Hacer igual:
+------------
+* Reuniones productivas.
+* Mantener actitud positiva
+
+Cierre grupo 8, por disolucion.
+
+  
